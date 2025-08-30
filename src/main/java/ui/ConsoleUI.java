@@ -31,7 +31,7 @@ public class ConsoleUI {
                 try {
                     roll = Integer.parseInt(input);
                 } catch (NumberFormatException e) {
-                    System.out.println("❌ Invalid input. Please type 'r' or enter a number 1–6.");
+                    System.out.println(" Invalid input. Please type 'r' or enter a number 1–6.");
                     continue;
                 }
             }
@@ -41,11 +41,11 @@ public class ConsoleUI {
                 System.out.printf("%02d, %d -> %02d (%s)%n",
                         result.from(), result.roll(), result.to(), result.message());
             } catch (IllegalArgumentException e) {
-                System.out.println("⚠️ " + e.getMessage());
+                System.out.println(e.getMessage());
             }
 
             if (game.isWon()) {
-                System.out.println("🎉 Congratulations! You reached 100!");
+                System.out.println("Congratulations! You reached 100!");
                 break;
             }
         }
