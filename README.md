@@ -1,10 +1,10 @@
-Overview
+1. Overview
 
 This is a console-based Snakes and Ladders game implemented in Java.
 
 The project follows object-oriented principles and is structured with separate packages for models, game logic, and UI.
 
-Key Highlights:
+2. Key Highlights:
 
 Board setup with snakes and ladders using a Builder pattern.
 
@@ -18,7 +18,7 @@ Unit tests validate core game mechanics.
 
 Win condition achieved upon reaching square 100.
 
-How to Run
+3. How to Run
 
 Clone the repository:
 
@@ -27,13 +27,13 @@ git clone https://github.com/priyanka1212patidar/snakes-ladders-java.git
 cd snakes-ladders-java
 
 
-Build & Run:
+4. Build & Run:
 
 mvn clean install
 
 mvn exec:java -Dexec.mainClass="Main"
 
-Game Instructions
+5. Game Instructions
 
 Type r → Roll a dice
 
@@ -53,11 +53,11 @@ Your move: r
 
 04, 3 -> 07 (Ladder! climb to 33)
 
-Running Tests
+6. Running Tests
 
 mvn test
 
-Tech Stack
+7. Tech Stack
 
 Java 17
 
@@ -67,6 +67,6 @@ JUnit 5
 
 OOP Principles (Builder, Encapsulation, Records)
 
-Author
+8. Author
 
 Priyanka Patidar
